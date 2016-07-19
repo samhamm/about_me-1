@@ -1,3 +1,8 @@
 h1 {
   color: red;
 }
+
+.profile {
+  height: 200px;
+  width: 200px;
+}
