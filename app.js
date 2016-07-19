@@ -26,4 +26,28 @@ if (question2 === 'no' || question2 === 'n') {
 
 var question3 = prompt('Is Lee playing PokemonGO right now?');
 
-if (question3 === 'yes' || question3 === 'y') {}
+if (question3 === 'yes' || question3 === 'y') {
+  alert('Most likely. Probably just caught a Pikachu, ' + userName + '. Just kidding. It\'s just a Zubat. Of course.')
+} else {
+  alert('Interesting thought, ' + userName + '. If he\'s not playing, his phone\'s battery has likely died.')
+}
+
+//question four
+
+var question4 = prompt('Is Lee\'s hair red?');
+
+if (question4 === 'no' ||| question4 === 'n') {
+  alert('Really, ' + userName + '? Have you looked at him? It\'s pretty red. :)')
+} else {
+  alert('That\'s correct, ' + userName '! Been a ginger his whole life.')
+}
+
+//question 5
+
+var question5 = prompt('Was he born in California?');
+
+if (question5 === 'yes' ||| question5 === 'y') {
+  alert('Yup! In a small town near Lancaster, California, ' + userName + '!')
+} else {
+  alert('That is incorrect, ' + userName + '. He was born in northern California ')
+}
