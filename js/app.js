@@ -13,6 +13,8 @@ if (question1 === 'yes' || question1 === 'y') {
   alert('He mentioned this the first day in class during his introduction. Were you listening,' + userName + ' ? :(');
 };
 
+console.log('User\'s response is "' + question1 + '" to question 1.');
+
 //question two
 var question2 = prompt('Is Lee a smoker?').toLowerCase();
 
@@ -21,6 +23,8 @@ if (question2 === 'no' || question2 === 'n') {
 } else {
   alert('That is a big negatory,' + userName + '. He used to, but does no longer.');
 };
+
+console.log('User\'s response is "' + question2 + '" to question 2.');
 
 //question three
 var question3 = prompt('Is Lee playing PokemonGO right now?').toLowerCase();
@@ -31,6 +35,8 @@ if (question3 === 'yes' || question3 === 'y') {
   alert('Interesting thought, ' + userName + '. If he\'s not playing, his phone\'s battery has likely died.');
 };
 
+console.log('User\'s response is "' + question3 + '" to question 3.');
+
 //question four
 var question4 = prompt('Is Lee\'s hair red?').toLowerCase();
 
@@ -40,6 +46,8 @@ if (question4 === 'no' || question4 === 'n') {
   alert('That\'s correct, ' + userName + '! Been a ginger his whole life.');
 };
 
+console.log('User\'s response is "' + question4 + '" to question 4.');
+
 //question 5
 var question5 = prompt('Was he born in California?').toLowerCase();
 
@@ -48,3 +56,5 @@ if (question5 === 'yes' || question5 === 'y') {
 } else {
   alert('That is incorrect, ' + userName + '. He was born in northern California ');
 };
+
+console.log('User\'s response is "' + question5 + '" to question 5.');
