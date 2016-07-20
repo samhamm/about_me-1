@@ -1,8 +1,27 @@
 h1 {
-  color: red;
+  color: navy;
+}
+.quiz {
+  ;
+}
+header {
+  width: 100%;
+  /*position: absolute; <--- Don't know how to make this work. Want the header to scroll with the page but not cover the other elements.*/
+  top: 0px;
+  border-bottom: navy solid 6px;
 }
 
 .profile {
   height: 200px;
   width: 200px;
+  border-radius: 20%;
+  border: solid navy 5px;
+}
+.content {
+  margin: auto 70px;
+}
+
+aside {
+  float: right;
+
 }
