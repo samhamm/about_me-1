@@ -1,2 +1,2 @@
 # about_me
-This is my About Me project for Code 201!
+LEE YOU ARE THE MOST RAD GINGER DUDE I KNOW OMG WTF AMAZESAUCE
